@@ -1,0 +1,31 @@
+.result-container{
+    margin-top: 24px;
+    padding: 20px;
+}
+
+.container-box{
+    background-color: #efefef;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px;
+    button {
+        background-color: $primary-color;
+        color: #fff;
+        padding: 12px 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 80%;
+        margin-top : 10px;
+        position: relative;
+        top: -20px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container-box button{
+        top: 0px;
+    }
+}

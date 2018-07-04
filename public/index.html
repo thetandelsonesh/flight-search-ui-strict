@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Flights | Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="main.bundle.css">
+    
+</head>
+<body>
+    <div class="header">
+        <div class="brand-logo">
+            <img src="img/airplane.png" height="40px" alt="">
+        </div>
+        <div class="brand">
+            <div class="title">FLIGHT</div>
+            <div class="sub-title">SEARCH  ENGINE</div>
+        </div>
+    </div>
+
+    <div class="content"> 
+        <div class="sidebar">
+            <div class="form-container">
+                <form id="search-form" name="search-form">
+                    <div class="pull-center">
+                        <div class="toggler" id="toggler">
+                            <label for="oneway">
+                                <input id="oneway" type="radio" name="bookingtype" value="1" onclick="validateField()" onchange="validateField()">
+                                <span class="btn">One Way</span>
+                            </label>
+                            <label for="return">
+                                <input id="return" type="radio" name="bookingtype" value="2" onclick="validateField()" onchange="validateField()">
+                                <span class="btn">Return</span>
+                            </label>
+                        </div>
+                        <input type="text" id="origin" name="origin" placeholder="Enter Origin" onkeyup="validateField(this)">
+                        <input type="text" id="dest" name="dest"  placeholder="Enter Destination" onkeyup="validateField(this)">
+                        <input type="date" placeholder="Date" id="departdate" name="departdate" onkeyup="validateField(this)">
+                        <input type="date" placeholder="Date" id="returndate" name="returndate" onkeyup="validateField(this)">
+                        <input type="number" min="1" id="passanger" name="passanger" placeholder="Passangers" onkeyup="validateField(this)">    
+                        <button type="button" onclick="getFormValues()">SEARCH</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="main">
+            <div class="result-container" style="display: none">
+                <div class="row">
+                    <div class="col-fix-50">
+                        <h3><span  id="origin-result">FROM</span>&nbsp;&nbsp;>&nbsp;&nbsp;<span id="dest-result">TO</span></h3>
+                    </div>
+                    <div class="col-fix-50 pull-right">
+                        <div id="depart-result" class="mini-text">Return Date</div>
+                        <div id="return-result" class="mini-text">Return Date</div>
+                    </div>
+                </div>
+                <hr>
+                <div id="container-box-dump"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+.header{
+	height: 60px;
+	width: 100%;
+	background-color: #212121;
+    z-index: 1;   
+    
+    .brand-logo{
+        padding: 5px;
+        width: 15%;
+        float: left;
+        text-align: right;
+    }
+    .brand{
+        padding: 5px;
+        text-align: left;
+        min-width: 15%;
+        float: left;
+
+        .title{
+            font-size: 25px;
+            color: white;
+            font-weight: bold;
+        }
+        .sub-title{
+            font-size: 11px;
+            font-weight: bold;
+            color: white;
+        }
+
+    }
+}
+
+.content{
+    display: block;
+    width: 100%;
+    min-height: 100%;
+}
+
+.sidebar{
+    display: block;
+    height: auto;
+    float: left;
+    width: 30%;
+    padding: 6px;
+}
+
+.main{
+    display: block;
+    background: #fff;
+    min-height: 100vh;
+    float: left;
+    width: 70%;
+    padding: 6px;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar{
+        width: 100%;
+        height: auto;
+    }
+
+    .main{
+        width: 100%;
+    }
+
+}

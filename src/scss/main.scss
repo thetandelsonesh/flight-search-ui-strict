@@ -1,0 +1,29 @@
+@import 'common/grid';
+
+$font-stack : 'Open-sans',sans-serif;
+$primary-color : #ff3f00;
+$accent : blue;
+
+$url : 'http://localhost:3000/';
+
+
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0px;
+    margin: 0px;
+}
+html,body{
+    margin:0px;
+    padding: 0px;
+    min-height: 100%;
+    background: linear-gradient(to bottom,#543b34,#2c2726);
+    font-family: $font-stack;
+}
+
+
+@import 'modules/layout';
+@import 'modules/form';
+@import 'modules/result';
