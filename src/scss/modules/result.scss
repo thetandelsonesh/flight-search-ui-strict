@@ -4,11 +4,18 @@
 }
 
 .container-box{
-    background-color: #efefef;
+    background-color: #fff;
     margin-top: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 6px;
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    &:hover{
+        background-color: #efefef;
+    }
     button {
         background-color: $primary-color;
         color: #fff;
