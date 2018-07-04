@@ -1,0 +1,127 @@
+[
+    {
+        "origin" : "DEL",
+        "destination" : "PNQ",
+        "originName" : "Delhi",
+        "destinationName" : "Pune",
+        "flightNumber" : 190,
+        "departureDate" : "2018-07-05",
+        "arrivalDate" : "2018-07-05",
+        "departureTime" : "03:30 PM",
+        "arrivalTime" : "05:40 PM",
+        "price" : 7877
+    },
+    {
+        "origin" : "PNQ",
+        "destination" : "DEL",
+        "originName" : "Pune",
+        "destinationName" : "Delhi",
+        "flightNumber" : 390,
+        "departureDate" : "2018-07-10",
+        "departureTime" : "10:23 AM",
+        "arrivalDate" : "2018-07-10",
+        "arrivalTime" : "12:23 PM",
+        "price" : 9011
+    },
+    {
+        "origin" : "DEL",
+        "destination" : "PNQ",
+        "originName" : "Delhi",
+        "destinationName" : "Pune",
+        "flightNumber" : 200,
+        "departureDate" : "2018-07-05",
+        "arrivalDate" : "2018-07-05",
+        "departureTime" : "04:30 PM",
+        "arrivalTime" : "06:40 PM",
+        "price" : 10019,
+        "return" : {
+            "flightNumber" : 201,
+            "departureDate" : "2018-07-10",
+            "arrivalDate" : "2018-07-10",
+            "departureTime" : "06:30 PM",
+            "arrivalTime" : "09:40 PM"
+        }
+    },
+    {
+        "origin" : "PNQ",
+        "destination" : "DEL",
+        "originName" : "Pune",
+        "destinationName" : "Delhi",
+        "flightNumber" : 125,
+        "departureDate" : "2018-07-05",
+        "arrivalDate" : "2018-07-05",
+        "departureTime" : "03:30 PM",
+        "arrivalTime" : "05:40 PM",
+        "price" : 10019,
+        "return" : {
+            "flightNumber" : 452,
+            "departureDate" : "2018-07-10",
+            "arrivalDate" : "2018-07-10",
+            "departureTime" : "03:30 PM",
+            "arrivalTime" : "05:40 PM"
+        }
+    },
+
+    {
+        "origin" : "DEL",
+        "destination" : "PNQ",
+        "originName" : "Delhi",
+        "destinationName" : "Pune",
+        "flightNumber" : 8675,
+        "departureDate" : "2018-07-05",
+        "arrivalDate" : "2018-07-05",
+        "departureTime" : "03:30 PM",
+        "price" : 10019,
+        "arrivalTime" : "05:40 PM"
+    },
+    {
+        "origin" : "PNQ",
+        "destination" : "DEL",
+        "originName" : "Pune",
+        "destinationName" : "Delhi",
+        "flightNumber" : 812,
+        "departureDate" : "2018-07-10",
+        "arrivalDate" : "2018-07-10",
+        "departureTime" : "03:30 PM",
+        "price" : 10019,
+        "arrivalTime" : "05:40 PM"
+    },
+    {
+        "origin" : "DEL",
+        "destination" : "PNQ",
+        "originName" : "Delhi",
+        "destinationName" : "Pune",
+        "flightNumber" : 341,
+        "departureDate" : "2018-07-05",
+        "arrivalDate" : "2018-07-05",
+        "departureTime" : "03:30 PM",
+        "price" : 10019,
+        "arrivalTime" : "05:40 PM",
+        "return" : {
+            "flightNumber" : 816,
+            "departureDate" : "2018-07-10",
+            "arrivalDate" : "2018-07-10",
+            "departureTime" : "03:30 PM",
+            "arrivalTime" : "05:40 PM"
+        }
+    },
+    {
+        "origin" : "PNQ",
+        "destination" : "DEL",
+        "originName" : "Pune",
+        "destinationName" : "Delhi",
+        "flightNumber" : 812,
+        "departureDate" : "2018-07-10",
+        "arrivalDate" : "2018-07-10",
+        "departureTime" : "03:30 PM",
+        "price" : 10019,
+        "arrivalTime" : "05:40 PM",
+        "return" : {
+            "flightNumber" : 643,
+            "departureDate" : "2018-07-10",
+            "arrivalDate" : "2018-07-10",
+            "departureTime" : "03:30 PM",
+            "arrivalTime" : "05:40 PM"
+        }
+    }
+]
